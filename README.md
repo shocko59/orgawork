@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
@@ -24,3 +25,7 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
+=======
+# Orgawork
+Repository du projet mobile Orgawork développé par Antoine DE WILDE
+>>>>>>> 3fb0078bc0749e54097e508c3b5f6ce056486923
