@@ -1,14 +1,20 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { NavController, Content } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
+  @ViewChild(Content) content: Content;
 
   constructor(public navCtrl: NavController) {
 
   }
 
+  ionViewDidEnter() {
+    setTimeout(() =>{
+      this.content.scrollToBottom();
+    }, 300);
+  }
 }

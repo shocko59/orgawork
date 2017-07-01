@@ -1,18 +1,46 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Mon assistant</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content>
+  <div class="robot-msg">
+    <img src="assets/img/robot-avatar.png" />
+    <div class="msg-container">
+      Salut Antoine ! Comment puis-je t'aider dans ton organisation scolaire ?
+    </div>
+  </div>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <div class="my-msg">
+    <img src="assets/img/avatar.png" />
+    <div class="msg-container">
+      Qu'est-ce que j'ai à faire pour demain ?
+    </div>
+  </div>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <div class="robot-msg">
+    <img src="assets/img/robot-avatar.png" />
+    <div class="msg-container">
+      Salut Antoine ! Comment puis-je t'aider dans ton organisation scolaire ?
+    </div>
+  </div>
+
+  <div class="my-msg">
+    <img src="assets/img/avatar.png" />
+    <div class="msg-container">
+      Qu'est-ce que j'ai à faire pour demain ?
+    </div>
+  </div>
 </ion-content>
+
+<ion-footer>
+  <ion-item>
+    <ion-input type="text" placeholder="Votre message"></ion-input>
+  </ion-item>
+
+  <ion-icon ios="ios-send" md="md-send" color="primary"></ion-icon>
+</ion-footer>
