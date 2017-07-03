@@ -8,30 +8,32 @@
 </ion-header>
 
 <ion-content>
-    <div class="date-picker">
-      <ion-icon name="ios-arrow-back"></ion-icon>
-      <span class="date-time">Aujourd'hui</span>
-      <ion-icon name="ios-arrow-forward"></ion-icon>
-    </div>
+    <div class="homeworks-header">
+      <div class="date-picker">
+        <ion-icon name="ios-arrow-back"></ion-icon>
+        <span class="date-time">Aujourd'hui</span>
+        <ion-icon name="ios-arrow-forward"></ion-icon>
+      </div>
 
-    <round-progress
-      [current]="66"
-      [max]="100"
-      [color]="'#7251B5'"
-      [background]="'#eaeaea'"
-      [radius]="80"
-      [stroke]="12"
-      [semicircle]="false"
-      [rounded]="true"
-      [clockwise]="true"
-      [responsive]="false"
-      [duration]="800"
-      [animation]="'easeInOutQuart'"
-      [animationDelay]="0">
-    </round-progress>
+      <round-progress
+        [current]="66"
+        [max]="100"
+        [color]="'#7251B5'"
+        [background]="'#D1D1D1'"
+        [radius]="80"
+        [stroke]="12"
+        [semicircle]="false"
+        [rounded]="true"
+        [clockwise]="true"
+        [responsive]="false"
+        [duration]="800"
+        [animation]="'easeInOutQuart'"
+        [animationDelay]="0">
+      </round-progress>
 
-    <div class="value-progress">
-      66%
+      <div class="value-progress">
+        66%
+      </div>
     </div>
 
     <ion-list>
