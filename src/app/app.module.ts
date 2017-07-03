@@ -6,6 +6,7 @@ import { RoundProgressModule, RoundProgressConfig } from 'angular-svg-round-prog
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HomeworksPage } from '../pages/homeworks/homeworks';
+import { NotesPage } from '../pages/notes/notes';
 import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -16,6 +17,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     HomeworksPage,
+    NotesPage,
     ListPage
   ],
   imports: [
@@ -28,6 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     HomeworksPage,
+    NotesPage,
     ListPage
   ],
   providers: [

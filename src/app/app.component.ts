@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { NotesPage } from '../pages/notes/notes';
 import { HomeworksPage } from '../pages/homeworks/homeworks';
 
 @Component({
@@ -24,7 +25,7 @@ export class MyApp {
     this.pages = [
       { title: 'Mon assistant', component: HomePage, icon: 'chatbubbles' },
       { title: 'Mes devoirs', component: HomeworksPage, icon: 'checkmark-circle' },
-      { title: 'Mes notes', component: ListPage, icon: 'school' },
+      { title: 'Mes notes', component: NotesPage, icon: 'school' },
       { title: 'Mon emploi du temps', component: ListPage, icon: 'calendar' }
     ];
 
