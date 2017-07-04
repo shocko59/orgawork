@@ -22,7 +22,7 @@
       </ion-list-header>
       <ion-item>
         <ion-grid>
-          <ion-row>
+          <ion-row (press)="pressNote()">
             <ion-col col-10>DS n°1</ion-col>
             <ion-col col-2><span class="note green">18</span><span class="note-max">/20</span></ion-col>
           </ion-row>
@@ -30,7 +30,7 @@
       </ion-item>
       <ion-item>
         <ion-grid>
-          <ion-row>
+          <ion-row (press)="pressNote()">
             <ion-col col-10>DS n°2</ion-col>
             <ion-col col-2><span class="note green">17.5</span><span class="note-max">/20</span></ion-col>
           </ion-row>
@@ -42,7 +42,7 @@
       </ion-list-header>
       <ion-item>
         <ion-grid>
-          <ion-row>
+          <ion-row (press)="pressNote()">
             <ion-col col-10>Contrôle JS</ion-col>
             <ion-col col-2><span class="note green">20</span><span class="note-max">/20</span></ion-col>
           </ion-row>
@@ -50,35 +50,11 @@
       </ion-item>
       <ion-item>
         <ion-grid>
-          <ion-row>
+          <ion-row (press)="pressNote()">
             <ion-col col-10>TP Raspberry</ion-col>
             <ion-col col-2><span class="note green">15.5</span><span class="note-max">/20</span></ion-col>
           </ion-row>
         </ion-grid>
       </ion-item>
     </ion-list>
-
-
-    <div class="add-note">
-      <ion-grid>
-        <ion-row>
-          <ion-col class="right-border top-border" col-6>
-            <ion-icon name="md-add-circle"></ion-icon>
-            <p>Ajouter une note</p>
-          </ion-col>
-          <ion-col class="top-border" col-6>
-            <ion-icon name="md-create"></ion-icon>
-            <p>Modifier une note</p>
-          </ion-col>
-          <ion-col class="right-border" col-6>
-            <ion-icon name="ios-trash"></ion-icon>
-            <p>Supprimer une note</p>
-          </ion-col>
-          <ion-col col-6>
-            <ion-icon name="md-list-box"></ion-icon>
-            <p>Historique des devoirs</p>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-    </div>
 </ion-content>

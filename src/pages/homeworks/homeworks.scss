@@ -1,4 +1,12 @@
 page-homeworks {
+  ion-header ion-buttons {
+    margin-right: 12px;
+  }
+
+  ion-header ion-buttons button {
+    font-size: 0.8em !important;
+  }
+
   .date-picker {
     color: #AEAEAE;
     text-align: center;
@@ -52,33 +60,6 @@ page-homeworks {
   ion-list {
     margin-top: -30px !important;
     margin-bottom: 0 !important;
-  }
-
-  ion-grid {
-    padding: 0 !important;
-  }
-
-  ion-col {
-    border-bottom: 1px solid #eaeaea;
-    font-size: 2.0em;
-    color: #8A70C2;
-    text-align: center;
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-  }
-
-  .right-border {
-      border-right: 1px solid #eaeaea;
-  }
-
-  .top-border {
-      border-top: 1px solid #eaeaea;
-  }
-
-  ion-col p {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 
   .homeworks-header {

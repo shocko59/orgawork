@@ -4,6 +4,11 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Mes devoirs</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="md-options"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
@@ -40,7 +45,7 @@
       <ion-list-header>
         Mathématiques
       </ion-list-header>
-      <ion-item>
+      <ion-item (press)="pressHomework()">
         <ion-label>DM n°1</ion-label>
         <ion-checkbox></ion-checkbox>
       </ion-item>
@@ -48,34 +53,13 @@
       <ion-list-header>
         Français
       </ion-list-header>
-      <ion-item>
+      <ion-item (press)="pressHomework()">
         <ion-label>Rédiger le texte</ion-label>
         <ion-checkbox checked></ion-checkbox>
       </ion-item>
-      <ion-item>
+      <ion-item (press)="pressHomework()">
         <ion-label>Lire le livre n°4</ion-label>
         <ion-checkbox checked></ion-checkbox>
       </ion-item>
     </ion-list>
-
-    <ion-grid>
-      <ion-row>
-        <ion-col class="right-border top-border" col-6>
-          <ion-icon name="md-add-circle"></ion-icon>
-          <p>Ajouter un devoir</p>
-        </ion-col>
-        <ion-col class="top-border" col-6>
-          <ion-icon name="md-create"></ion-icon>
-          <p>Modifier un devoir</p>
-        </ion-col>
-        <ion-col class="right-border" col-6>
-          <ion-icon name="ios-trash"></ion-icon>
-          <p>Supprimer un devoir</p>
-        </ion-col>
-        <ion-col col-6>
-          <ion-icon name="md-list-box"></ion-icon>
-          <p>Historique des devoirs</p>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
 </ion-content>
